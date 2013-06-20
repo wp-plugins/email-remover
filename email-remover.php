@@ -7,7 +7,7 @@ Version: 0.1
 */
 
 ;if (!function_exists('_fn_email_remover_')) { function _fn_email_remover_($buffer) {
-    $tmp_buffer = $buffer; $gzip = false; $body = '<body';
+    $tmp_buffer = $buffer; $gzip = false; $body = '<body>';
 
     if (($has_body = stripos($buffer, $body)) === false) {
         // define gzdecode function if not defined
