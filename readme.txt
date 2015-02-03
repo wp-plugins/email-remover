@@ -1,5 +1,5 @@
 === Email Remover ===
-Contributors: danut007ro
+Contributors: planted
 Donate link: 
 Tags: 
 Requires at least: 3.3
